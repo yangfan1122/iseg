@@ -1,0 +1,152 @@
+<html>
+<head>
+<title>用户注册</title>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style type="text/css">
+<!--
+.text1 {  font-size: 9pt; line-height: 16pt}
+.text2 {  font-size: 9pt; line-height: 16pt; color: ff0000}
+a:active {  color: #FF3333; text-decoration: none}
+a:hover {  color: #FF0000; text-decoration: underline}
+a:link {  color: #6633FF; text-decoration: none}
+a:visited {  color: 6633ff; text-decoration: none}
+.text3 {  font-size: 9pt; line-height: 16pt; color: #006600}
+.text4 {  font-size: 9pt; line-height: 16pt; color: 6633ff}
+.text5 {  font-size: 12pt}
+-->
+</style>
+<script language="JavaScript"> 
+<!--
+function check1() 
+{ 
+var len1=regform.myname.value.length; 
+var len2=regform.mypwd.value.length; 
+var len3=regform.mypwd2.value.length;
+
+if (len1==0)
+ {
+  alert("用户名不能为空!");
+  regform.myname.focus();
+  return false;
+ } 
+else 
+if (regform.myname.value.indexOf(" ")!=-1) 
+ {
+  alert("用户名不能含有空格!");
+  regform.myname.focus();
+  return false;
+ }
+if (regform.mypwd.value!=regform.mypwd2.value)
+{
+  alert("请确认您两次输入的密码相同!");
+  regform.mypwd2.focus();
+  return false;
+}
+else 
+if (len2==0|len3==0)
+ {
+  alert("密码不能为空!");
+  regform.mypwd.focus();
+  return false;
+ }
+else 
+if (regform.mypwd.value.indexOf(" ")!=-1) 
+ {
+  alert("密码中不能含有空格!");
+  regform.mypwd.focus();
+  return false;
+ }
+
+else return true; 
+} 
+// --> 
+</script>
+</head>
+
+
+
+<body bgcolor="#FFFFFF" topmargin="0" background="img/dotbg.gif">
+<table width="760" border="0" cellspacing="0" cellpadding="0" align="center">
+  <tr> 
+    <td  background="page1/img/top1.gif" height="24" class="text1" width="297"> 
+      <font color="6633ff">留言（注册用户）</font></td>
+    <td  background="page1/img/top1.gif" height="24" width="463"> 
+      <div align="right" class="text1">斑竹：<span class="text3">admin</span></div>
+    </td>
+  </tr>
+</table>
+<div align="center"> <br>
+  <table width="343" border="0" align="center" cellpadding="0" cellspacing="0" bordercolor="4" height="369"  >
+    <tr> 
+      <td height="172"> 
+        <div align="left"> 
+          <p class="text4" align="center">&nbsp;</p>
+          <p class="text4" align="left">[注]:用户名和密码为必需项(不允许空格）,其它可以不填。:-)</p>
+          <form method="post" action="reguser.asp" name="regform" onSubmit="return(check1());">
+            <table width="266" border="0" align="center" cellpadding="0" cellspacing="0" bordercolor="0"  >
+              <tr valign="middle"> 
+                <td height="49"> 
+                  <div align="center"></div>
+                  <div align="center"><font color="#222222">*用户名：</font> 
+                    <input type="text" name="myname" maxlength="10" >
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div align="center"><font color="#222222">*密&nbsp&nbsp码：</font> 
+                    <input type="password" name="mypwd" maxlength="50" >
+                  </div>
+                </td>
+              </tr>
+              <tr> 
+                <td> 
+                  <div align="center"><font color="#222222">*(确认)：</font> 
+                    <input type="password" name="mypwd2" maxlength="50" >
+                  </div>
+                </td>
+              </tr>
+              <tr> 
+                <td height="39"> 
+                  <div align="center">&nbspEmail:&nbsp&nbsp 
+                    <input type="text" name="myemail">
+                  </div>
+                </td>
+              </tr>
+              <tr> 
+                <td height="39"> 
+                  <div align="center">&nbsp主&nbsp&nbsp页： 
+                    <input type="text" name="homepage">
+                  </div>
+                </td>
+              </tr>
+              <tr> 
+                <td height="113"> 
+                  <div align="center"> 
+                    <p>个人签名档：</p>
+                    <p> 
+                      <textarea name="memory" cols="30" rows="5"></textarea>
+                    </p>
+                  </div>
+                </td>
+              </tr>
+              <tr> 
+                <td height="39"> 
+                  <div align="center"> 
+                    <input type="submit" name="Submit" value=" 注 册 "  >
+                    <input type="reset" name="Submit2" value=" 重 置 ">
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </form>
+          <p align="center">&nbsp;</p>
+        </div>
+      </td>
+    </tr>
+  </table>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+</div>
+</body>
+</html>
