@@ -13,12 +13,12 @@
     <tr align="center"> 
       <td width="114" align="right">用户名:</td>
       <td width="264" align="left">
-<input name="username" type="text" id="username"></td>
+<input name="username" type="text" id="username" style="width:200px;"></td>
     </tr>
     <tr align="center"> 
       <td align="right">密码:</td>
       <td align="left">
-<input name="password" type="password" id="password"></td>
+<input name="password" type="password" id="password" style="width:200px;"></td>
     </tr>
     <tr align="center"> 
       <td colspan="2"><input type="submit" name="Submit" value="登陆">
