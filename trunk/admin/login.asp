@@ -1,16 +1,15 @@
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>登陆管理页面</title>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>管理登陆</title>
+<link rel="stylesheet" rev="stylesheet"  href="../styles/style.css" />
+
 </head>
 
 <body>
 <form name="form1" method="post" action="cklogin.asp">
   <p>&nbsp;</p>
   <table width="400" border="0" align="center" cellpadding="5" cellspacing="0">
-    <tr align="center"> 
-      <td colspan="2">后 台 登 录 管 理</td>
-    </tr>
     <tr align="center"> 
       <td width="114" align="right">用户名:</td>
       <td width="264" align="left">
