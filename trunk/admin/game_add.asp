@@ -3,7 +3,7 @@
 dim wutianlaoshi
 wutianlaoshi=session("wutianlaoshi")
 if wutianlaoshi="" then
-response.redirect "wtls_login.asp"
+response.redirect "login.asp"
 end if
 %>
 <%
