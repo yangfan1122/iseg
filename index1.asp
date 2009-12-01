@@ -7,7 +7,7 @@ set rs=db.execute(sql)
 <head>
 <body>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
-<title>** 国际米兰球迷俱乐部 **</title>
+<title>iseg</title>
 <style type="text/css">
 <!--
 table {
