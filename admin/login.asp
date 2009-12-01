@@ -1,42 +1,30 @@
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
-<title>µÇÂ½¹ÜÀíÒ³Ãæ</title>
-<style type="text/css">
-<!--
-table {
-	font-size: 9pt;
-	text-decoration: none;
-	border: 1px solid #000000;
-}
-body {
-	background-image: url(../images/background.gif);
-}
--->
-</style>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>ç™»é™†ç®¡ç†é¡µé¢</title>
 </head>
 
 <body>
 <form name="form1" method="post" action="cklogin.asp">
   <p>&nbsp;</p>
   <table width="400" border="0" align="center" cellpadding="5" cellspacing="0">
-    <tr align="center" bgcolor="#006699"> 
-      <td colspan="2"><font color="#FFFFFF">ºó Ì¨ µÇ Â¼ ¹Ü Àí</font></td>
+    <tr align="center"> 
+      <td colspan="2">åŽ å° ç™» å½• ç®¡ ç†</td>
     </tr>
     <tr align="center"> 
-      <td width="114" align="right">ÓÃ»§Ãû:</td>
+      <td width="114" align="right">ç”¨æˆ·å:</td>
       <td width="264" align="left">
 <input name="username" type="text" id="username"></td>
     </tr>
     <tr align="center"> 
-      <td align="right">ÃÜÂë:</td>
+      <td align="right">å¯†ç :</td>
       <td align="left">
 <input name="password" type="password" id="password"></td>
     </tr>
     <tr align="center"> 
-      <td colspan="2"><input type="submit" name="Submit" value="µÇÂ½">
+      <td colspan="2"><input type="submit" name="Submit" value="ç™»é™†">
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-        <input type="reset" name="Submit2" value="ÖØÖÃ"></td>
+        <input type="reset" name="Submit2" value="é‡ç½®"></td>
     </tr>
   </table>
 </form>

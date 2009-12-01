@@ -20,10 +20,10 @@ set rs=db.execute(sql)
 
 
 <body>
-<p><a href="game_write.asp">添加比赛</a> <a href="loginout.asp">退出管理</a></p>
+<p><a href="game_write.asp">添加球队</a> <a href="loginout.asp">退出管理</a></p>
 <table width="666" border="0" cellpadding="5" cellspacing="0">
   <tr bgcolor="#006699"> 
-    <td colspan="6">添加比赛页面</td>
+    <td colspan="6">添加球队</td>
   </tr>
   <tr> 
     <td width="80">比赛ID</td>
