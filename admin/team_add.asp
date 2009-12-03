@@ -46,8 +46,8 @@ set rs=db.execute(sql)
     <td><%=rs("no")%></td>
     <td><%=rs("tournament")%></td>
     <td><%=rs("money")%></td>
-    <td><a href="wtls_edit.asp?id=<%=rs("id")%>">编辑</a></td>
-    <td><a href="wtls_del.asp?id=<%=rs("id")%>">删除</a></td>
+    <td><a href="team_edit.asp?id=<%=rs("id")%>">编辑</a></td>
+    <td><a href="team_del.asp?id=<%=rs("id")%>">删除</a></td>
   </tr>
   <%
   rs.movenext
